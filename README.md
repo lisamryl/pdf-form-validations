@@ -9,11 +9,14 @@ Commented out is code to take in a CSV file with field names and values and outp
 
 ## How to Run PDF Validations
 
-* Git clone into a new folder
+* Open terminal and create/go to folder to clone into
+* Git clone into this folder
+* Create a PDFs folder and copy/paste PFFs to validate into it
 * Set up a virtual environment (`virtualenv env`)
 * Activate it (`source/env/bin/activate`)
 * Install all requirements (`pip install -r requirements.txt`)
-* Update the directory path name and csv field file name in the script, if necessary.
+* Open folder in a text editor (Sublime, Visual Studio Code, etc.)
+* Update the directory path name and csv field file name in the script, if necessary
 * Run `python pdf_form_validations.py`
 
 ## Notes
