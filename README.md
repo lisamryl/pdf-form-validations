@@ -10,15 +10,14 @@ Commented out is code to take in a CSV file with field names and values and outp
 ## How to Run PDF Validations
 
 * Git clone into a new folder
-* Set up a virtual environment (e.g. "virtualenv env")
-* Activate it (e.g. source/env/bin/activate)
-* Install all requirements (e.g. pip install -r requirements.txt)
+* Set up a virtual environment (`virtualenv env`)
+* Activate it (`source/env/bin/activate`)
+* Install all requirements (`pip install -r requirements.txt`)
 * Update the directory path name and csv field file name in the script, if necessary.
-* Run python pdf_form_validations.py
+* Run `python pdf_form_validations.py`
 
 ## Notes
 
 * When "Required" column is filled out, replace:
-loop_through_pdfs(DIRECTORY, field_list)
-with
-loop_through_pdfs(DIRECTORY, field_list, required_field_list)
+`loop_through_pdfs(DIRECTORY, field_list)`
+with `loop_through_pdfs(DIRECTORY, field_list, required_field_list)`
